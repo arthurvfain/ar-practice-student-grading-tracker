@@ -29,8 +29,6 @@ puts "Seeding StudentExams..."
   # TODO: create StudentExams! Remember, a StudentExam belongs to an exam
   # and a StudentExam belongs to a student.
   StudentExam.create(exam_id: exam.id, student_id: student.id, grade: grade_score) # <- insert key value pairs required to create a studentExam!
-
 end
-
 puts "Done!"
  
